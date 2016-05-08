@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Cuvette
+#
+DEF Cuvette CV 0 40 N Y 1 F N
+F0 "CV" 0 0 51 H V C CNN
+F1 "Cuvette" 0 100 51 H V C CNN
+F2 "" 0 0 51 H V C CNN
+F3 "" 0 0 51 H V C CNN
+DRAW
+S -250 300 250 -200 0 1 0 N
+P 2 0 1 39  -200 -150  200 -150 N
+P 2 0 1 39  -200 250  200 250 N
+X 1 1 0 -350 200 U 50 50 1 1 I
+X 2 2 0 450 200 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
